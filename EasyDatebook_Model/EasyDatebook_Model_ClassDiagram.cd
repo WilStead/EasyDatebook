@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EasyDatebook_Model.AddressBookEntry" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAMAAAACAAAAAAAAAAAEQAgAEIAAQCAAAAAEAAAQE=</HashCode>
+      <FileName>AddressBookEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyDatebook_Model.BudgetItem" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAASAgAEAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>BudgetItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyDatebook_Model.Datebook">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAIACAAASAAgAAAQAACgAAAEAAAABAAAEAA=</HashCode>
+      <FileName>Datebook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasyDatebook_Model.Note">
+    <Position X="8.75" Y="4" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAEAAAAAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Note.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

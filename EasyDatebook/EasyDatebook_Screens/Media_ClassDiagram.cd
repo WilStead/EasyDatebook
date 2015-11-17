@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EasyDatebook_Screens.EmbeddedMediaPlayer">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAEAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmbeddedMediaPlayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyDatebook_Screens.HelpPlaylist">
+    <Position X="3.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgQQgAAMAGAABAAAAAAAAAAAoAEAACAFIAIAAAgAAAA=</HashCode>
+      <FileName>HelpPlaylist.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

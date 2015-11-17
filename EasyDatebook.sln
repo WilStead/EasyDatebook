@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebook", "EasyDatebook\EasyDatebook.csproj", "{C9DAFEF9-296F-4143-B4C4-17F59C88ABDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebook_Screens", "EasyDatebook\EasyDatebook_Screens\EasyDatebook_Screens.csproj", "{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebook_Model", "EasyDatebook_Model\EasyDatebook_Model.csproj", "{D23F1857-F057-4D6F-8F48-F9E92C68C15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebook_Model_Tests", "EasyDatebook_Model_Tests\EasyDatebook_Model_Tests.csproj", "{DAAE3F0A-D2D8-49CD-AFC0-CCFFC2F2E6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebook_Screens_Tests", "EasyDatebook_Screens_Tests\EasyDatebook_Screens_Tests.csproj", "{E39527FE-3966-4BD9-B143-AEDE8B1C68B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDatebookCustomControlLibrary", "EasyDatebookCustomControlLibrary\EasyDatebookCustomControlLibrary.csproj", "{0E214C0F-772F-4B2F-8A74-13233E72A540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DAFEF9-296F-4143-B4C4-17F59C88ABDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DAFEF9-296F-4143-B4C4-17F59C88ABDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DAFEF9-296F-4143-B4C4-17F59C88ABDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DAFEF9-296F-4143-B4C4-17F59C88ABDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23F1857-F057-4D6F-8F48-F9E92C68C15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23F1857-F057-4D6F-8F48-F9E92C68C15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23F1857-F057-4D6F-8F48-F9E92C68C15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23F1857-F057-4D6F-8F48-F9E92C68C15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAE3F0A-D2D8-49CD-AFC0-CCFFC2F2E6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAE3F0A-D2D8-49CD-AFC0-CCFFC2F2E6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAE3F0A-D2D8-49CD-AFC0-CCFFC2F2E6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAE3F0A-D2D8-49CD-AFC0-CCFFC2F2E6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39527FE-3966-4BD9-B143-AEDE8B1C68B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39527FE-3966-4BD9-B143-AEDE8B1C68B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39527FE-3966-4BD9-B143-AEDE8B1C68B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39527FE-3966-4BD9-B143-AEDE8B1C68B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E214C0F-772F-4B2F-8A74-13233E72A540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E214C0F-772F-4B2F-8A74-13233E72A540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E214C0F-772F-4B2F-8A74-13233E72A540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E214C0F-772F-4B2F-8A74-13233E72A540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

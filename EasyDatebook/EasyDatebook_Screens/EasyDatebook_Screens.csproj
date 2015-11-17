@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF44B22A-AFC7-47D3-A0A9-73CE73FCE434}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EasyDatebook_Screens</RootNamespace>
+    <AssemblyName>EasyDatebook.Screens</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\bin\Debug\EasyDatebook.Screens.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--Reference Include="PresentationFramework.Aero" /-->
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmbeddedMediaPlayer.cs" />
+    <Compile Include="HelpPlaylist.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="RichTextBoxBinder.cs" />
+    <Compile Include="ViewModel.cs" />
+    <Compile Include="Main_Window.xaml.cs">
+      <DependentUpon>Main_Window.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Main_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Fonts\SegoeMarker.ttf" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\Properties\Version.cs">
+      <Link>Properties\Version.cs</Link>
+    </Compile>
+    <Resource Include="Icons\icon_add.png" />
+    <Resource Include="Icons\icon_budget.png" />
+    <Resource Include="Icons\icon_calendar.png" />
+    <Resource Include="Icons\icon_contact.png" />
+    <Resource Include="Icons\icon_delete.png" />
+    <Resource Include="Icons\icon_help.png" />
+    <Resource Include="Icons\icon_text.png" />
+    <Resource Include="Icons\icon_tutorial.png" />
+    <Resource Include="Icons\paper.png" />
+    <Resource Include="Icons\paper_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EasyDatebookCustomControlLibrary\EasyDatebookCustomControlLibrary.csproj">
+      <Project>{0e214c0f-772f-4b2f-8a74-13233e72a540}</Project>
+      <Name>EasyDatebookCustomControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EasyDatebook_Model\EasyDatebook_Model.csproj">
+      <Project>{d23f1857-f057-4d6f-8f48-f9e92c68c15e}</Project>
+      <Name>EasyDatebook_Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\icon_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AudioFiles\Intro.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AudioFiles\Calendar0.mp3" />
+    <Resource Include="AudioFiles\Calendar1.mp3" />
+    <Resource Include="AudioFiles\Calendar2.mp3" />
+    <Resource Include="AudioFiles\Calendar3.mp3" />
+    <Resource Include="AudioFiles\Calendar4.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AudioFiles\AddrBook0.mp3" />
+    <Resource Include="AudioFiles\AddrBook1.mp3" />
+    <Resource Include="AudioFiles\AddrBook2.mp3" />
+    <Resource Include="AudioFiles\AddrBook3.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AudioFiles\Budget0.mp3" />
+    <Resource Include="AudioFiles\Budget1.mp3" />
+    <Resource Include="AudioFiles\Budget2.mp3" />
+    <Resource Include="AudioFiles\Budget3.mp3" />
+    <Resource Include="AudioFiles\Budget4.mp3" />
+    <Resource Include="AudioFiles\Budget5.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AudioFiles\Notes0.mp3" />
+    <Resource Include="AudioFiles\Notes1.mp3" />
+    <Resource Include="AudioFiles\Notes2.mp3" />
+    <Resource Include="AudioFiles\Notes3.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aux_ClassDiagram.cd" />
+    <None Include="Media_ClassDiagram.cd" />
+    <None Include="ViewModel_ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	     Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>
